@@ -1,0 +1,318 @@
+
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #afbec5;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	line-height: 1.5em; 
+	background-color: #242424;
+	/*background-image: url(../images/background.png);*/
+	background-image: url(/ip/images/background.png);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+#wholesection
+{
+	float : middle;
+	height : auto ;
+	width : 1366px;	
+	background: transparent;
+	margin-left:auto;
+    margin-right:auto; 
+}
+#top
+{	
+	height : 59px ;
+	width: 100%;
+}
+#topLogo
+{
+	float : left;
+	width: 60%;
+	height: 100%;
+}
+#loginregister
+{
+	float : right;
+	height: 100%;
+	width: 38%;
+}
+#logintable
+{
+	width: 50%;
+	height: 100%;
+	float: center;
+	vertical-align: center;
+}
+#logintable td a
+{
+	font : italic bold 20px lucida;
+	color: rgb(4,96,133);
+}
+#logintable td a:hover
+{
+	text-align: center;
+    background: url(../images/menuhover.png);
+    font : italic bold 21px lucida;
+    text-decoration: underline;
+    color : rgb(150,213,231);
+}
+
+#middlebody
+{
+	background: transparent;
+	width : 100%;
+	height: 500px;
+}
+
+#leftbody
+{
+	background: transparent;
+	width : 40%;
+	height: 72.7%;
+	float : left;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+	margin-right: 0%;
+
+}
+#infotable
+{
+	padding-top: 5%;
+	padding-left: 20%
+}
+
+
+#rightbody
+{
+	background: transparent;
+	width : 40%;
+	float : right;
+	height: 72.7%; 
+	margin: 5%;
+}
+
+#footer
+{
+	width: 100%;
+	height: 50px;
+}
+	
+#footer p
+{
+	text-align: center;
+}
+
+/* ------------------ for sign in page-------------------------- */
+
+#logindiv
+{
+	background: transparent;
+	width : 40%;
+	float : right;
+	height: 72.7%; 
+	margin-right : 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border: 3px inset;
+	border-color: black;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+  	-webkit-border-radius: 8px;
+
+}
+
+#loginformtable
+{
+	margin-top: 10%;
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
+	height: 30%;
+	
+}
+
+#inputfield
+{
+	text-align: center;
+	display:inline;
+	width:250px;
+	background: transparent;
+	color : rgb(200,200,200);
+	border-color: rgb(12,16,33);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+  	-webkit-border-radius: 5px;
+}
+
+#loginformtable td 
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#loginformtable td h1
+{
+	color : rgb(180,180,180);
+	font-size: 40px;
+	font-family: Lucida;
+	font-style: italic ;
+	font-weight: bold;
+	text-align: center;
+}
+#textofform
+{
+
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 20px;
+	font-family: Lucida;
+	font-style: italic ;
+	font-weight: bold;
+	color : rgb(12,16,33);
+}
+
+#loginbutton
+{
+	border: 2px solid black;
+	color: rgb(29,207,252);
+	background: rgb(9,22,47);
+	font : 15px bold Tahoma;
+	width: 250px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+  	-webkit-border-radius: 25px;
+}
+#loginbutton:hover
+{
+	border: 2px solid black;
+	color: rgb(29,207,252);
+	font : 18px italic Tahoma;
+	font-style: italic;
+	font-weight: bold;
+	width: 250px;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+  	-webkit-border-radius: 8px;
+
+}
+
+/* ------------------ for sign up page-------------------------- */
+
+#signupdiv
+{
+	background: transparent;
+	width : 40%;
+	float : right;
+	height: 84.7%; 
+	margin-right : 5%;
+	margin-top: 3%;
+	margin-bottom: 0%;
+	border: 2px inset;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+  	-webkit-border-radius: 8px;
+  	border-color: rgb(120,120,120) rgb(130,130,130) rgb(130,130,130) rgb(120,120,120) ;
+
+}
+
+#signupformtable
+{
+	margin-left: 0%;
+	width: 100%;
+	
+}
+
+#signupformtable td 
+{
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+#signupbutton
+{
+	text-align: center;
+	background: green;
+
+}
+#signupformtable td h1
+{
+
+	color : rgb(180,180,180);
+	font-size: 30px;
+	font-family: Lucida;
+	font-style: italic ;
+	font-weight: bold;
+	text-align: center;
+}
+
+#sexdivmale
+{
+	width : 40%;
+	float : left;
+	text-align: center;
+}
+#sexdivfemale
+{
+	margin-right: 20%;
+	width : 40%;
+	float : right;
+}
+
+#inputfielddropdownmenu
+{
+	text-align: center;
+	display:inline;
+	width:250px;
+	background: transparent;
+	color : black;
+	border-color: rgb(12,16,33);
+	border-width: 2px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+  	-webkit-border-radius: 5px;
+}
+
+#signupbutton
+{
+	margin-left: 30%;
+	margin-top: 4%;
+	border: 2px solid black;
+	color: rgb(29,207,252);
+	background: rgb(9,22,47);
+	font : 15px bold Tahoma;
+	width: 280px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+  	-webkit-border-radius: 25px;
+}
+#signupbutton:hover
+{
+
+	border: 2px solid black;
+	color: rgb(29,207,252);
+	font : 18px italic Tahoma;
+	font-style: italic;
+	font-weight: bold;
+	width: 280px;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+  	-webkit-border-radius: 8px;
+
+}
+#birthdaydropdown
+{
+
+	text-align: center;
+	display:inline;
+	width:250px;
+	background: transparent;
+	color : rgb(200,200,200);
+	border-color: rgb(12,16,33);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+  	-webkit-border-radius: 5px;
+
+}
